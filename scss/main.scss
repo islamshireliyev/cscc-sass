@@ -1,0 +1,30 @@
+$primary-color: red;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  color: rgb(201, 255, 196);
+  background-color: rgb(133, 97, 44);
+}
+.header {
+  background-color: green;
+  &__nav {
+    width: 60%;
+
+    &__link-list {
+      display: flex;
+      &__item {
+        margin-right: 10px;
+        &__link {
+          text-decoration: none;
+          color: black;
+          &--red {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  color: #c9ffc4;
+  background-color: #85612c;
+}
+
+.header {
+  background-color: green;
+}
+.header__nav {
+  width: 60%;
+}
+.header__nav__link-list {
+  display: flex;
+}
+.header__nav__link-list__item {
+  margin-right: 10px;
+}
+.header__nav__link-list__item__link {
+  text-decoration: none;
+  color: black;
+}
+.header__nav__link-list__item__link--red {
+  color: red;
+}
